@@ -288,7 +288,7 @@ class _ChuckerPageState extends State<ChuckerPage> {
     ChuckerFlutter.navigatorObserver.navigator?.push(
       MaterialPageRoute<void>(
         builder: (_) => Theme(
-          data: ThemeData.light(useMaterial3: false),
+          data: ThemeData.light(),
           child: const SettingsPage(),
         ),
       ),
@@ -299,7 +299,7 @@ class _ChuckerPageState extends State<ChuckerPage> {
     ChuckerFlutter.navigatorObserver.navigator?.push(
       MaterialPageRoute<void>(
         builder: (_) => Theme(
-          data: ThemeData.light(useMaterial3: false),
+          data: ThemeData.light(),
           child: ApiDetailsPage(api: api),
         ),
       ),

@@ -164,7 +164,7 @@ class _NotificationState extends State<Notification>
     await ChuckerFlutter.navigatorObserver.navigator?.push(
       MaterialPageRoute<dynamic>(
         builder: (_) => Theme(
-          data: ThemeData.light(useMaterial3: false),
+          data: ThemeData.light(),
           child: ApiDetailsPage(api: api),
         ),
       ),

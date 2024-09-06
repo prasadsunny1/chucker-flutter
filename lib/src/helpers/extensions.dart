@@ -27,7 +27,7 @@ extension TextStyleExtension on TextStyle {
   TextStyle toBold() => copyWith(fontWeight: FontWeight.bold);
 
   ///Color a text
-  TextStyle withColor(Color? color) => copyWith(color: color);
+  TextStyle withColor(Color color) => copyWith(color: color);
 
   ///Change font size of  a text
   TextStyle withSize(double size) => copyWith(fontSize: size);

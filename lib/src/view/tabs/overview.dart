@@ -145,7 +145,7 @@ class OverviewTabView extends StatelessWidget {
                 Expanded(
                   child: Text(
                     value,
-                    style: context.textTheme.bodySmall!.withColor(valueColor),
+                    style: context.textTheme.bodySmall!.withColor(valueColor ?? Colors.black),
                   ),
                 ),
                 const SizedBox(width: 8),
